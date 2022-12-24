@@ -28,4 +28,4 @@ Dct = {1:'Spectre', 2:'Solitude'}
 from math import dist
 point1 = (2, 3)
 point2 = (10, 8)
-dist_math = dist (point1, point2)
+print (dist_math = dist (point1, point2))

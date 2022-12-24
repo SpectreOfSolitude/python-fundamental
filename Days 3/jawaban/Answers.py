@@ -36,3 +36,12 @@ print ("Keliling Lingkaran: "+KelilingLingkaran)
 
 # Lvl 2
 
+## supposed x = 3
+from math import dist
+
+x = 3
+y = 2(x) -2
+
+point1 = (2, 2)
+point2 = (6, 10)
+dist_math = dist (point1, point2)
