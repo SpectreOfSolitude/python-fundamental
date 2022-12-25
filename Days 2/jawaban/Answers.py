@@ -50,6 +50,6 @@ _circum_of_circle_ = pi*radius*2
 print(_area_of_circle_)
 print(_circum_of_circle_)
 
-radius = input("input radius: ")
+radius = float(input("input radius: "))
 _area_of_circle_ = pi * radius * radius
 print (_area_of_circle_)

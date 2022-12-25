@@ -25,7 +25,9 @@ Dct = {1:'Spectre', 2:'Solitude'}
 
 #2
 
-from math import dist
-point1 = (2, 3)
-point2 = (10, 8)
-print (dist_math = dist (point1, point2))
+import numpy as np
+point1 = np.array([2,3])
+point2 = np.array([10, 8])
+D = np.linalg.norm(point2-point1)
+print(D)
+
